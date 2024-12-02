@@ -1,0 +1,179 @@
+   /*       Styling of whole document        */
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+}
+   /*       Styling of "body" tag       */
+body{
+    background-image: url("https://ninjasfiles.s3.amazonaws.com/asset_0000000000003226_1714596295_pics1.png");
+    background-attachment: fixed;
+    background-size: cover;
+}
+       
+/*           Styling of Header Section         */
+.header{
+    width:100%;
+    height:60px;
+    background-color: rgb(3, 3, 58);
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 5;
+}
+.header p{
+    text-align: center;
+    color:white;
+    font-size: 30px;
+    font-weight: 900;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top:10px ;
+}
+    /*      Styling of Main section    (common)    */
+main{
+    
+    width:100%;
+    height:800px;
+    position:relative;
+    top:50px;
+}
+   /*      Styling of Section 1 of Main      */
+.section1{
+    width:100%;
+    height:70px;
+    position:fixed;
+    top:70px;
+    text-align: center;
+    color: white;
+    font-size:20px ;
+    font-weight: 900;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.section1 p{
+    margin-top: 30px;
+}
+     /*      Styling of Section 2 of Main      */
+.section2{
+    width:100%;
+    height:200px;
+    padding:25px 0px;
+    position: absolute;
+    top: 180px;
+}
+.section2div{
+    width:210px;
+    height:160px;
+    display:inline-block;
+    margin-left: 100px;
+    border:5px solid white;
+    border-radius:10px;
+    background-color: white;
+    position:relative;
+}
+.section2div img{
+    width:200px;
+    height:150px;
+    border-radius:10px;
+    filter:brightness(0.9);
+}
+ .section2divimagedetails { 
+    width:100%;
+    position:absolute;
+    top:115px;
+    font-size: 10px;
+    font-weight: 700;
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+    text-align: center;
+}
+      /*      Styling of Section 3 of Main      */
+.section3{
+    width:300px;
+    height: 235px;
+    border:5px solid white;
+    border-radius: 15px;
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 25px;
+    position:absolute;
+    top:420px;
+    left:350px;
+    overflow-y:scroll;
+    text-align: center;
+}
+.section3 img{
+    width:200px;
+    height:150px;
+    border-radius: 15px;
+    filter:brightness(0.9);
+}
+ #sec3heading{
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.image p{
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+       /*      Styling of Section 4 of Main      */
+.section4{
+    width:100%;
+    height:100px;
+    position: absolute;
+    top:750px;
+    left:100px;
+}
+.section4 table{
+    width:80%;
+    border:1px solid;
+    border-collapse: collapse;
+}
+.section4 table tr{
+    height: 25px;
+}
+.section4  th, td{
+    font-size: 15px;
+    font-weight: 400;
+    font-family:Arial, Helvetica, sans-serif;
+    padding:0px 15px;
+}   
+.section4 table th{
+    background-color: rgb(3, 3, 58);;
+    color:white;
+    text-align: left;
+}
+.section4 table td{
+    background-color: white;
+    color:black;
+    background: linear-gradient(white,#e9ebeb);
+}
+      /*      Styling of Footer Section     */
+.footer{
+    width:100%;
+    height:170px;
+    background-color: rgb(3, 3, 58);
+    position:absolute;
+    top:970px;
+    text-align: center;
+    color:white;
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 25px;
+}
+.footer p{
+    margin-bottom: 20px;
+}
+.footer #bcci{
+   font-size:13px ;
+}
+.footer #team{
+    font-size:15px ;
+}
+.footer #establishment{
+    font-size:11px ;
+}
+.footer #location{
+    font-size:10px ;
+}
